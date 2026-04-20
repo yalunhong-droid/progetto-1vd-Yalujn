@@ -2,51 +2,93 @@
 
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <title>Il Volontariato</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        .domanda {
-            margin-top: 20px;
-            font-weight: bold;
-        }
-        .risposta {
-            margin-left: 10px;
-            color: #333;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Il Volontariato</title>
+<style>
+    body {
+        font-family: Arial;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+    }
+    .domanda {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .risposta {
+        margin-top: 5px;
+    }
+</style>
 </head>
+
 <body>
 
-<h1>Il Volontariato</h1>
+<h1>Questionario sul Volontariato</h1>
+
+<form>
 
 <div class="domanda">1. Conosci qualche associazione di volontariato?</div>
+<div class="risposta">
+    <input type="radio" name="q1"> Sì
+    <input type="radio" name="q1"> No
+</div>
 
-<div class="domanda">2. Conosci qualcuno che lavora nel mondo del volontariato?</div>
+<div class="domanda">2. Conosci qualcuno che lavora nel volontariato?</div>
+<div class="risposta">
+    <input type="radio" name="q2"> Sì
+    <input type="radio" name="q2"> No
+</div>
 
 <div class="domanda">3. Quante associazioni conosci?</div>
+<div class="risposta">
+    <input type="text" placeholder="Scrivi qui">
+</div>
 
-<div class="domanda">4. Hai mai avuto a che fare con una associazione di volontariato?</div>
+<div class="domanda">4. Hai mai avuto a che fare con un’associazione?</div>
+<div class="risposta">
+    <input type="radio" name="q4"> Sì
+    <input type="radio" name="q4"> No
+</div>
 
-<div class="domanda">5. Pensi sia importante la loro funzione nella società?</div>
+<div class="domanda">5. Pensi sia importante nella società?</div>
+<div class="risposta">
+    <input type="radio" name="q5"> Sì
+    <input type="radio" name="q5"> No
+</div>
 
-<div class="domanda">6. Di cosa si occupa secondo te il volontariato?</div>
+<div class="domanda">6. Il volontariato è importante secondo te?</div>
+<div class="risposta">
+    <input type="radio" name="q6"> Sì
+    <input type="radio" name="q6"> No
+</div>
 
-<div class="domanda">7. Quali volontariati ci sono in Italia secondo te?</div>
+<div class="domanda">7. Quali volontariati ci sono in Italia?</div>
+<div class="risposta">
+    <input type="text" placeholder="Scrivi qui">
+</div>
 
-<div class="domanda">8. I volontari sono presenti anche in altre parti del mondo?</div>
+<div class="domanda">8. I volontari sono presenti nel mondo?</div>
+<div class="risposta">
+    <input type="radio" name="q8"> Sì
+    <input type="radio" name="q8"> No
+</div>
 
-<div class="domanda">9. Come sei venuto a conoscenza del volontariato?</div>
+<div class="domanda">9. Come hai conosciuto il volontariato?</div>
+<div class="risposta">
+    <input type="text" placeholder="Scrivi qui">
+</div>
 
-<div class="domanda">10. Conosci qualche associazione di volontariato?</div>
+<div class="domanda">10. Conosci altre associazioni?</div>
+<div class="risposta">
+    <input type="radio" name="q10"> Sì
+    <input type="radio" name="q10"> No
+</div>
+
+<br><br> <button type="submit">Invia</button>
+
+</form>
 
 </body>
 </html>
-
